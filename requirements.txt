@@ -1,0 +1,29 @@
+# Core Python libraries (standard, included with Python)
+# os
+# shutil
+# random
+# xml.etree.ElementTree
+# typing
+
+# Numerical and scientific
+numpy>=1.26.0
+
+# Data handling and utilities
+tqdm>=4.66.0
+
+# Visualization
+matplotlib>=3.8.0
+Pillow>=10.0.0
+opencv-python>=4.9.0
+
+# Deep Learning (CUDA 12.6 build of PyTorch)
+torch==2.4.1+cu126
+torchvision==0.19.1+cu126
+torchaudio==2.4.1+cu126
+--extra-index-url https://download.pytorch.org/whl/cu126
+
+# Ultralytics YOLO
+ultralytics>=8.2.0
+
+# Typing utilities
+typing-extensions>=4.8.0
